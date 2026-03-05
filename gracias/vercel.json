@@ -1,1 +1,12 @@
-
+{
+  "rewrites": [
+    {
+      "source": "/gracias",
+      "destination": "https://gracias-pagina.vercel.app/"
+    },
+    {
+      "source": "/gracias/(.*)",
+      "destination": "https://gracias-pagina.vercel.app/$1"
+    }
+  ]
+}
